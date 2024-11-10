@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# React Friends List App 🌟
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the **Friends List App**, a project from Jonas Schmedtmann's Udemy course: **"Master modern React from beginner to advanced!"**. This project is part of my journey to enhance my React skills by building practical applications that focus on key React concepts.
 
-## Available Scripts
+## About This Project
 
-In the project directory, you can run:
+The Friends List App is one of the earlier projects in the course, designed to help learners practice foundational React concepts while working on a functional application. Key features of this project include:
 
-### `npm start`
+- **Managing State**: Using `useState` to handle component states for toggling UI elements and managing data.
+- **Component Hierarchy**: Building reusable and flexible components like `Button` and `FormAddFriend`.
+- **Child-to-Parent Communication**: Learning how to pass data from child components (e.g., adding a friend or splitting a bill).
+- **Dynamic UI**: Creating a responsive and interactive user interface to display and update a list of friends.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Add Friends**: Users can add new friends to the list with a name, image, and starting balance.
+- **Select Friends**: Highlight a friend from the list to interact with or deselect them.
+- **Split Bills**: Calculate and update balances when splitting expenses with a friend.
 
-### `npm test`
+## Concepts Learned
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+While working on this project, I practiced and solidified:
 
-### `npm run build`
+- Managing local state with `useState`.
+- Passing props between components for dynamic updates.
+- Using conditional rendering to toggle UI elements.
+- Handling form submissions and validations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Run
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To test the project locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/your-username/react-friends-list-app.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   cd react-friends-list-app
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+4. Start the development server:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+    npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Future Improvements
 
-### Code Splitting
+While this app serves as a great introduction to React, potential future enhancements could include:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Adding persistent storage with `localStorage` or an API backend.
+- Implementing advanced features like a search bar or friend removal.
+- Exploring additional styling improvements with Tailwind CSS.
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks to [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/) for crafting such a beginner-friendly course that bridges the gap between React fundamentals and advanced concepts.
